@@ -19,7 +19,7 @@ function lsa_enqueue_ping_script() {
     <script>
         (function keepLaragonAwake() {
             setInterval(function () {
-                fetch('<?php echo admin_url('admin-ajax.php?action=laragon_stay_active'); ?>&lsa_ping=' + new Date().getTime())
+                fetch('<?php echo admin_url('admin-ajax.php?action=z_laragon_stay_active'); ?>&lsa_ping=' + new Date().getTime())
                     .then(response => {
                         if (!response.ok) {
                             console.warn('Laragon ping failed');

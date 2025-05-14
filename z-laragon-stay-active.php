@@ -33,5 +33,5 @@ function lsa_enqueue_ping_script() {
     </script>
     <?php
 }
-add_action('wp_footer', 'lsa_enqueue_ping_script');      // Frontend
+// add_action('wp_footer', 'lsa_enqueue_ping_script');      // Frontend
 add_action('admin_footer', 'lsa_enqueue_ping_script');   // Backend

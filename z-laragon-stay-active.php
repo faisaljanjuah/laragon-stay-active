@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Laragon Stay Active
+ * Plugin Name: Z Laragon Stay Active
  * Description: Prevent Laragon from sleeping by pinging the server periodically.
  * Version: 1.0
  * Author: Faisal K

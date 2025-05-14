@@ -9,7 +9,7 @@
 if (!defined('ABSPATH')) exit; // Prevent direct access
 
 // Register the AJAX handler
-add_action('wp_ajax_laragon_stay_active', function () {
+add_action('wp_ajax_z_laragon_stay_active', function () {
     wp_send_json_success('pong'); // Minimal response
 });
 
